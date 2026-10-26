@@ -1,64 +1,26 @@
 {
-  "Ads": {
-    "ad_status" : "1",
-    
-    "_comment" : "admob , google_ad_manager , fan, applovin_max, ironsource, startapp, applovin_discovery",
-    "ad_banner" : "applovin_max",
-    "ad_inter" : "admob",
-    "ad_native" : "admob",
-    "openapp" : "admob",
-    "back_up" : "none",
-    "ad_interval" : 3 ,
-    
-    "AdMob": {
-      "banner": "ca-app-pub-1788256487675958/7585261459",
-      "interstitial": "ca-app-pub-3394099792135095/6156644267",
-      "native": "ca-app-pub-3394099792135095/7863653190",
-      "appopen" : "ca-app-pub-3394099792135095/3745644559"
-    },
-    
-    "ironSource": {
-      "app_key": "12d657f25"
-    },
-    
-	"MAX": {
-	  "banner":"b6fe37c0f8797af0",
-	  "interstitial":"8124d9d8ab62a8d3",
-	  "native": "87a137d2703d720c",
-	  "appopen" : "d1ac3378c8713d81"
-	},
-	
-	"FAN": {
-      "banner": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "interstitial": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID",
-      "native": "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"
-    },
-    
-    "GAM": {
-      "banner": "/6499/example/banner",
-      "interstitial": "/6499/example/interstitial",
-      "native": "/6499/example/native",
-      "appopen": "/6499/example/app-open"
-    },
-    
-    "Applovin": {
-      "banner": "be13788b9f2afee5",
-      "interstitial": "1f5e603ebdfc8580"
-    },
-    
-    "StartApp" :{
-        "app_id" : "0"
+  "success": true,
+  "ads_enabled": true,
+  "click_interval": 3,
+  "time_interval": 5,
+  "placements": {
+    "banner": "admob",
+    "native": "admob",
+    "interstitial": "admob",
+    "rewarded": "admob",
+    "app_open": "admob"
+  },
+  "networks": {
+    "admob": {
+      "enabled": true,
+      "config": {
+        "banner_id": "ca-app-pub-3394099792135095/5967360707",
+        "native_id": "ca-app-pub-3394099792135095/7356653946",
+        "interstitial_id": "ca-app-pub-3394099792135085/8885458032",
+        "rewarded_id": "ca-app-pub-3394099792135095/8273890037",
+        "app_open_id": "ca-app-pub-3394099792135095/4654279034"
+      }
     }
-  }
+  },
+  "custom_ads": []
 }
-
-
-
-
-
-
-
-
-
-
-
